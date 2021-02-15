@@ -1,35 +1,28 @@
 import React from 'react';
 import './navigation.css';
+import NavLink from '../NavLink/navlink';
 
 function Navigation() {
+  const navArr = [
+    { name: 'Home', link: '#home-id'},
+    { name: 'About Us', link: '#story-id'},
+    { name: 'Team', link: '#team-id'},
+    { name: 'Services', link: '#services-id'},
+    { name: 'Blog', link: '#blog-id"'},
+    { name: 'Contact Us', link: '#contacts-id'},
+  ];
   
   return (
     <div className="navigation">
       <div className="navigation-text">
-        <div className="navigation-hover">
-          <p><a className="navigation-links" href="#home-id">Home</a></p>
-        </div>
-        <div className="navigation-hover">
-          <p><a className="navigation-links" href="#story-id">About Us</a></p>
-        </div>
-        <div className="navigation-hover">
-          <p><a className="navigation-links" href="#team-id">Team</a></p>
-        </div>
+        {
+          navArr.map((nav, i) =>
+                       <NavLink key={i} name={nav.name} link={nav.link}/>)
+        }
       </div>
       <div className="logo">H</div>
       <div className="navigation-text">
-        <div className="navigation-hover">
-          <p><a className="navigation-links" href="#services-id">Services</a>
-          </p>
-        </div>
-        <div className="navigation-hover">
-          <p><a className="navigation-links" href="#services-blog-id">Blog</a>
-          </p>
-        </div>
-        <div className="navigation-hover">
-          <p><a className="navigation-links" href="#contacts-id">Contact Us</a>
-          </p>
-        </div>
+      
       </div>
     </div>
   )
