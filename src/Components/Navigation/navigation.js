@@ -12,17 +12,24 @@ function Navigation() {
     { name: 'Contact Us', link: '#contacts-id'},
   ];
   
+  const mid = Math.ceil(navArr.length / 2);
+  const navArrLeft = navArr.slice(0, mid);
+  const navArrRight = navArr.slice(mid);
+  
   return (
     <div className="navigation">
       <div className="navigation-text">
         {
-          navArr.map((nav, i) =>
+          navArrLeft.map((nav, i) =>
                        <NavLink key={i} name={nav.name} link={nav.link}/>)
         }
       </div>
       <div className="logo">H</div>
       <div className="navigation-text">
-      
+        {
+          navArrRight.map((nav, i) =>
+                       <NavLink key={i} name={nav.name} link={nav.link}/>)
+        }
       </div>
     </div>
   )
