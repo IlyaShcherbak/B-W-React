@@ -1,0 +1,9 @@
+.navigation-hover:hover p a {
+  color  : black;
+  cursor : pointer;
+}
+
+.navigation-links {
+  text-decoration : none;
+  color           : gray;
+}

@@ -1,12 +1,15 @@
 import React from "react";
 import './App.css';
-import Navigation from '../Navigation/navigation';
+import Home from '../Home/home';
 
 function App() {
   return (
-    <div className="section">
-      <Navigation />
+    <div>
+      <div className="section">
+        <Home/>
+      </div>
     </div>
+    
   );
 }
 

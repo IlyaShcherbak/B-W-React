@@ -7,14 +7,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.navigation-hover:hover p a{
-    color: black;
-    cursor: pointer;
-}
-.navigation-links{
-    text-decoration: none;
-    color: gray;
-}
+
 .logo{
     display: flex;
     align-items: center;

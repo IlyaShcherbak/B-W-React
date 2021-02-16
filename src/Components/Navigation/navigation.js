@@ -1,6 +1,6 @@
 import React from 'react';
 import './navigation.css';
-import NavLink from '../NavLink/navlink';
+import NavLink from '../NavLink/navLink';
 
 function Navigation() {
   const navArr = [

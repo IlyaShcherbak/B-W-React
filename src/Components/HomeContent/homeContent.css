@@ -1,0 +1,46 @@
+.home-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80%;
+}
+.home-content{
+    animation-name: home-content-falling;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    position: absolute;
+}
+@keyframes home-content-falling {
+    from{ margin-top: -40%; }
+    to{ margin-top: 0; }
+}
+.title{
+    font-weight: 100;
+    margin-bottom: 0;
+    text-align: center;
+}
+.title-remark{
+    margin-top: 0;
+    font-style: italic;
+    text-align: center;
+}
+.read-more-button{
+    /*margin-left: 32%;*/
+    width: 137px;
+    height: 40px;
+    text-decoration: none;
+    border-width: 1px;
+    border-color: black;
+    text-transform: uppercase;
+    background-color: white;
+    font-family: 'Baloo 2', cursive;
+    font-size: 16px;
+}
+.read-more-button:hover{
+    color: white;
+    background-color: #1d1d1d;
+}
+.read-more-button:focus{
+    outline: none;
+}
