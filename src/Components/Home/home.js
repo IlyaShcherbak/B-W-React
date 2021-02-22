@@ -7,11 +7,14 @@ import Circles from '../Circles/circles';
 class Home extends React.Component{
   render() {
     return(
-      <div className="home">
-        <Navigation/>
-        <HomeContent/>
-        <Circles/>
+      <div className="section">
+        <div className="home">
+          <Navigation/>
+          <HomeContent/>
+          <Circles/>
+        </div>
       </div>
+      
     );
   }
 }

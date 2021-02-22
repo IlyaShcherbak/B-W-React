@@ -1,0 +1,40 @@
+.story-cell{
+    color: white;
+}
+.empty-cell{
+    min-height: 94px;
+ }
+.header-right{
+    text-align: right;
+}
+.story-year {
+  margin   : 0;
+  position : relative;
+  cursor: pointer;
+}
+.story-text{
+    margin: 0;
+    position: relative;
+}
+.white-line{
+    background-color: white;
+}
+.circle-display{
+    display: flex;
+    justify-content: center;
+}
+.story-circle{
+    height: 10px;
+    width: 10px;
+    background-color: #1d1d1d;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 5px rgba(255,255,255,1);
+    margin-top: 15px;
+    position: absolute;
+    cursor : pointer;
+}
+
+.great-circle{
+    height: 25px;
+    width: 25px;
+}

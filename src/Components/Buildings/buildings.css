@@ -1,0 +1,16 @@
+.buildings{
+  padding: 0;
+  background-color: #232323;
+  position: absolute;
+}
+.building{
+  width: 100%;
+  height: 140px;
+}
+.buildings-black{
+  margin-top : -1.5rem;
+}
+.buildings-white {
+  position : absolute;
+  left     : 0;
+}
