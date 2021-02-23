@@ -24,15 +24,28 @@ class TeamMembers extends React.Component {
     
   ];
   
+  getClassNameByIndex(i) {
+    return (i % 2 === 0) ? 'down' : 'up';
+  };
   
   render() {
     return (
       <div className="team-members">
-        <PersonCard
-          photo={this.data[0].photo}
-          name={this.data[0].name}
-          position={this.data[0].position}
-        />
+        {
+          this.data.map((dat, i) => {
+            const className = this.getClassNameByIndex(i);
+            
+            return (
+              <PersonCard
+                key={i}
+                className={className}
+                photo={dat.photo}
+                name={dat.name}
+                position={dat.position}
+              />
+            );
+          })
+        }
         
       </div>
     );

@@ -16,3 +16,9 @@
     text-transform: capitalize;
     margin: 0;
 }
+.up{
+    align-self: flex-start;
+}
+.down{
+    align-self: flex-end;
+}
