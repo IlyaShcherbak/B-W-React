@@ -3,6 +3,7 @@ import './personCard.css'
 
 function PersonCard(props) {
   const {className, photo, name, position} = props;
+  
   return (
     <div className={`${ className || '' } person-info`}>
       <img className="person-photo" src={photo} alt=""/>

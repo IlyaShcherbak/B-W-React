@@ -1,0 +1,11 @@
+.contacts-card-item{
+    text-align: center;
+    width: 30%;
+}
+.contacts-card-img{
+    height: 3vh;
+    width: 3vh;
+}
+.contacts-card-text{
+    margin-top: 0;
+}

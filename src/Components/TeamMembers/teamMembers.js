@@ -21,7 +21,6 @@ class TeamMembers extends React.Component {
       name: 'antonio never',
       position: 'qa engineer & manager'
     },
-    
   ];
   
   getClassNameByIndex(i) {
