@@ -8,8 +8,8 @@
     text-align: right;
 }
 .story-year {
-  margin   : 0;
-  position : relative;
+  margin: 0;
+  position: relative;
   cursor: pointer;
 }
 .story-text{
@@ -33,7 +33,6 @@
     position: absolute;
     cursor : pointer;
 }
-
 .great-circle{
     height: 25px;
     width: 25px;

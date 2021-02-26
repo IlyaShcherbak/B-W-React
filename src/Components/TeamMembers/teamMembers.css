@@ -1,6 +1,6 @@
 .team-members{
-    height: 50vh;
-    margin-top: 10vh;
+    height: 400px;
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }

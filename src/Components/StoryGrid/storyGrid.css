@@ -1,6 +1,6 @@
 .story-grid {
-  display               : grid;
-  grid-row              : auto;
-  grid-template-columns : 4fr 5px 4fr;
-  grid-gap              : 0 8.33%;
+  display: grid;
+  grid-row: auto;
+  grid-template-columns: 4fr 5px 4fr;
+  grid-gap: 0 8.33%;
 }
