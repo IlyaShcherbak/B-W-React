@@ -7,7 +7,7 @@ class ServicesBlog extends React.Component {
     return (
       <div className="services-blog">
         <button className="services-blog-button">visit our blog</button>
-        <img className="services-image" src={process.env.PUBLIC_URL + 'assets/Background-text.png'} alt=""/>
+        <img className="services-image" src={process.env.PUBLIC_URL + '/assets/Background-text.png'} alt=""/>
       </div>
     );
   }

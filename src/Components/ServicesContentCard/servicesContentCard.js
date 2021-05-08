@@ -8,7 +8,7 @@ class ServicesContentCard extends React.Component {
     return (
       <div className="services-content-card">
         <div className="services-icon-border">
-          <img className="services-icon" src={image} alt=""/>
+          <img className="services-icon" src={process.env.PUBLIC_URL + image} alt=""/>
         </div>
         <h2 className="service-name">{title}</h2>
         <p className="service-description">{description}</p>

@@ -5,8 +5,7 @@ class ServicesSlide extends React.Component {
   render() {
     return (
       <div className="slide">
-        <img className="slide-img"
-             src={process.env.PUBLIC_URL + "assets/bw-div.png"} alt=""/>
+        <img className="slide-img" src={process.env.PUBLIC_URL + "/assets/bw-div.png"} alt=""/>
       </div>
     );
   }
