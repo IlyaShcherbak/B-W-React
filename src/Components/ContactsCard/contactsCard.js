@@ -7,7 +7,7 @@ class ContactsCard extends React.Component {
     
     return (
       <div className="contacts-card-item">
-        <img className="contacts-card-img" src={image} alt={imageDescription}/>
+        <img className="contacts-card-img" src={process.env.PUBLIC_URL + image} alt={imageDescription}/>
         <p className="contacts-card-text">{information}</p>
       </div>
     );
